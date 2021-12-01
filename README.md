@@ -22,18 +22,22 @@ Cada vacina deverá ter as seguintes informações:
 
 A API é capaz de cadastrar uma nova vacina, visualizar as vacinas cadastradas e marcar se a vacinação foi realizada. Para isso:
 
-| Verbo  | Recurso                                | Descrição                                    |
-| ------ | -------------------------------------- | -------------------------------------------- |
-| GET    | `/vaccines`                            | Retornar todas as vacinas cadastradas        |
-| GET    | `/vaccines/:id`                        | Retornar apenas uma vacina específica        |
-| GET    | `/vaccines/manufacturer/:manufacturer` | Retornar vacina com o fabricante específicao |
-| POST   | `/vaccines`                            | Cadastrar uma nova vacina                    |
-| PATCH  | `/vaccines/:id/vaccinated`             | Marcar se tomou a vacina                     |
-| PUT    | `/vaccines/:id`                        | Atualizar dados da vacina                    |
-| DELETE | `/vaccines/:id`                        | Deletar vacina                               |
+| Verbo  | Recurso                                | Descrição                                   |
+| ------ | -------------------------------------- | ------------------------------------------- |
+| GET    | `/vaccines`                            | Retornar todas as vacinas cadastradas       |
+| GET    | `/vaccines/:id`                        | Retornar apenas uma vacina específica       |
+| GET    | `/vaccines/manufacturer/:manufacturer` | Retornar vacina com o fabricante específico |
+| POST   | `/vaccines`                            | Cadastrar uma nova vacina                   |
+| PATCH  | `/vaccines/:id/vaccinated`             | Marcar se tomou a vacina                    |
+| PUT    | `/vaccines/:id`                        | Atualizar dados da vacina                   |
+| DELETE | `/vaccines/:id`                        | Deletar vacina                              |
 
 ---
 
 API utilizando todos os recursos das aulas, como o NodeJS, o banco de dados e a plataforma Heroku.
 
 https://dasa-vaccines.herokuapp.com/
+
+FRONT
+
+https://inspiring-murdock-f77023.netlify.app/
